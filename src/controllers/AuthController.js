@@ -21,7 +21,7 @@ module.exports = {
 
             if (checkPassword) {
                 const token = jwt.sign({ id: user.dataValues.id }, SECRET, {
-                    expiresIn: 300,
+                    expiresIn: 3000,
                 });
                 res.json({ id: user.id, token }).end();
             } else {
