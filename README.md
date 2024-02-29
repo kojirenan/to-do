@@ -96,7 +96,7 @@ Exemplo de corpo da solicitação:
   "title": "Título",
   "description": "Descrição",
     "done": false,
-    "date": 2024-02-27 16:22:15.058+00,
+    "date": "2024-02-27 16:22:15.058+00",
 }
 ```
 
@@ -110,7 +110,7 @@ Exemplo de corpo da solicitação:
   "title": "Título",
   "description": "Descrição",
     "done": false,
-    "date": 2024-02-27 16:22:15.058+00,
+    "date": "2024-02-27 16:22:15.058+00",
 }
 ```
 
