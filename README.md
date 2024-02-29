@@ -7,7 +7,8 @@ Após a autenticação do usuário é possível buscar, criar, atualizar e delet
 
 ---
 
-A aplicação se encontra disponível em - [To-Do Back-End](https://to-do-jar3.onrender.com)
+A aplicação se encontra disponível em - [To-Do Back-End](https://to-do-jar3.onrender.com).
+
 Onde é possível testar a aplicação com Postman.
 
 Verique na seção de Manipulação de Usuários e Tarefas
@@ -22,7 +23,7 @@ npm install
 
 ## Configuração
 
-Defina as variáveis de ambiente necessárias no arquivo `.env`, como PGHOST, PGDATABASE, PGUSER, ,PGPASSWORD ,ENDPOINT_ID e SECRET
+Defina as variáveis de ambiente necessárias no arquivo `.env`, como PGHOST, PGDATABASE, PGUSER, ,PGPASSWORD ,ENDPOINT_ID para o banco de dados e SECRET para utilizar no Bcrypt
 Certifique-se de configurar o banco de dados SQL PostGres
 
 Após iniciar o servidor, execute o comando
@@ -95,7 +96,7 @@ Exemplo de corpo da solicitação:
   "title": "Título",
   "description": "Descrição",
     "done": false,
-    "date": Date,
+    "date": 2024-02-27 16:22:15.058+00,
 }
 ```
 
@@ -109,7 +110,7 @@ Exemplo de corpo da solicitação:
   "title": "Título",
   "description": "Descrição",
     "done": false,
-    "date": Date,
+    "date": 2024-02-27 16:22:15.058+00,
 }
 ```
 
