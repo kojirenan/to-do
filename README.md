@@ -11,7 +11,7 @@ A aplicação se encontra disponível em - [To-Do Back-End](https://to-do-jar3.o
 
 Onde é possível testar a aplicação com Postman.
 
-Verique na seção de Manipulação de Usuários e Tarefas
+Verique na seção de Manipulação de Usuários e Tarefas.
 
 ## Instalação
 
@@ -23,10 +23,10 @@ npm install
 
 ## Configuração
 
-Defina as variáveis de ambiente necessárias no arquivo `.env`, como PGHOST, PGDATABASE, PGUSER, ,PGPASSWORD ,ENDPOINT_ID para o banco de dados e SECRET para utilizar no Bcrypt
-Certifique-se de configurar o banco de dados SQL PostGres
+Defina as variáveis de ambiente necessárias no arquivo `.env`, como PGHOST, PGDATABASE, PGUSER, ,PGPASSWORD ,ENDPOINT_ID para o banco de dados PostGres e SECRET para utilizar no Bcrypt.
 
-Após iniciar o servidor, execute o comando
+Certifique-se de configurar o banco de dados SQL PostGres para utilizar com ORM Sequelize.
+Após iniciar o servidor, execute o comando:
 
 ```bash
 npm start
@@ -128,6 +128,3 @@ Exemplo de corpo da solicitação:
 **Back-end:** Node, Express, Sequelize, Bcrypt.
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um PR ou reportar problemas.
-
-Licença
-Este projeto está licenciado sob a [Nome da Licença]. Consulte o arquivo LICENSE para obter mais detalhes.
